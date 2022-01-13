@@ -1,0 +1,81 @@
+    *{
+    padding: 0; margin: 0;
+    text-align: center;
+    font-family: arial;
+    color: rbg(0,0,0);
+    }
+
+body{
+  background-image: url(blue.jpg); background-repeat: no-repeat; background-size: cover;
+}
+p, ul{
+  font-size: 25px; margin: 5px;
+}
+li{
+  text-align: left;
+}
+h1{
+  font-size: 80px; padding: 5px; line-height: 110px;
+  font-family: 'Courier New', Courier, monospace;
+}
+h2{
+	font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+h3{
+  font-size: 35px; margin: 5px;
+}
+
+table{
+border: solid 1px black; margin: 10px 0;
+}
+tr{
+  padding: 0;
+}
+td{
+  padding: 15px; border: solid 1px black;
+  text-align: left;
+  width: 38%;
+  font-size: 15px;
+}
+td:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.2s;
+  font-size: 18px;
+  padding: 5px 5px 5px 15px;
+}
+
+    .ac{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+
+
+    .flex-container, .flex-item, .efinal{
+        display: flex;
+        /* borrar la sigiente tras maquetaje */
+        background-image: radial-gradient(rgba(102, 132, 150, 0.2), rgba(121, 150, 187, 0.3)); margin: 5px;
+        border-radius: 10px;
+      }
+.flex-container{
+  box-shadow: 0 0 10px black;
+}
+
+    .container{
+      justify-content: center;
+      padding: 0;
+      margin: 10px;
+    }
+
+.flex-container :hover{
+  transition: 0.5s;
+  background-color: white;
+  /*margin-left: 20%;
+  width: 60%;*/
+}
+
+.nombres{
+  padding: 15px 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.6), rgba(80, 80, 80, 0.4));
+}
